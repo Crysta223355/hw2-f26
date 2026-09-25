@@ -1,0 +1,116 @@
+/* Detailed requirement 3: Set the default fonts, page colors, and body margins. */
+body {
+	font-family: Arial, Verdana, sans-serif;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 20px 20px 0 20px;
+}
+
+/* Detailed requirement 4: Center the main heading and set its size and padding. */
+h1 {
+	font-size: 42px;
+	text-align: center;
+	padding: 15px;
+}
+
+/* Detailed requirement 5: Set the secondary heading size and dark gray color. */
+h2 {
+	font-size: 30px;
+	color: #0D0D0D;
+}
+
+/* Detailed requirement 6: Set the default paragraph size and top-left padding. */
+p {
+	font-size: 24px;
+	padding: 10px 0 0 10px;
+}
+
+/* Detailed requirement 7: Size, center, and border every image without setting a height. */
+img {
+	display: block;
+	width: 250px;
+	margin: 0 auto;
+	border: 10px dashed #FFFFFF;
+}
+
+/* Detailed requirement 8: Give every div flexible height, padding, and a white border. */
+div {
+	min-height: 125px;
+	padding: 20px;
+	border: 3px solid #FFFFFF;
+}
+
+/* Detailed requirement 9: Round the introduction, separate it from the image, and double-space its text. */
+.introduction {
+	border-radius: 15px;
+	margin-top: 15px;
+	line-height: 2;
+}
+
+/* Detailed requirements 10 and 12: Share the right alignment, left margin, and border widths. */
+.red,
+.yellow {
+	text-align: right;
+	margin-left: 50px;
+	border-bottom-width: 2px;
+	border-left-width: 5px;
+}
+
+/* Detailed requirement 10: Set the red section background. */
+.red {
+	background-color: #FF0000;
+}
+
+/* Detailed requirements 11 and 13: Share the left alignment, right margin, and border widths. */
+.blue,
+.green {
+	text-align: left;
+	margin-right: 50px;
+	border-top-width: 2px;
+	border-right-width: 5px;
+}
+
+/* Detailed requirement 11: Set the blue section background. */
+.blue {
+	background-color: #0000FF;
+}
+
+/* Detailed requirement 11e: Improve contrast for both headings and paragraphs in the blue section. */
+.blue h2,
+.blue p {
+	color: #C4C4C4;
+}
+
+/* Detailed requirement 12: Set the yellow section background. */
+.yellow {
+	background-color: #FFFF00;
+}
+
+/* Detailed requirement 12e: Improve paragraph contrast in the yellow section. */
+.yellow p {
+	color: #707070;
+}
+
+/* Detailed requirement 13: Use an approved green background color. */
+.green {
+	background-color: #008500;
+}
+
+/* Detailed requirement 14: Add the four-stop gradient and white border to the footer. */
+footer {
+	background: linear-gradient(
+		to right,
+		#000000 0%,
+		#0000FF 25%,
+		#0066FF 70%,
+		#000000 100%
+	);
+	border: 5px solid #FFFFFF;
+}
+
+/* Detailed requirement 15: Size and right-align footer text with no left padding. */
+footer p {
+	font-size: 20px;
+	text-align: right;
+	padding: 15px 15px 15px 0;
+}
