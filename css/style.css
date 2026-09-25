@@ -2,7 +2,7 @@
 body {
 	font-family: Arial, Verdana;
 	background-color: #000000;
-	color: #FFFFFF;
+	color: #ffffff;
 	margin: 20px 20px 0 20px;
 }
 
@@ -22,22 +22,23 @@ h2 {
 /* Detailed requirement 6: Set the default paragraph size and top-left padding. */
 p {
 	font-size: 24px;
-	padding: 10px 0 0 10px;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 /* Detailed requirement 7: Size, center, and border every image without setting a height. */
 img {
-	display: block;
 	width: 250px;
+	border: 10px dashed #ffffff;
+	display: block;
 	margin: 0 auto;
-	border: 10px dashed #FFFFFF;
 }
 
 /* Detailed requirement 8: Give every div flexible height, padding, and a white border. */
 div {
 	min-height: 125px;
 	padding: 20px;
-	border: 3px solid #FFFFFF;
+	border: 3px solid #ffffff;
 }
 
 /* Detailed requirement 9: Round the introduction, separate it from the image, and double-space its text. */
@@ -47,42 +48,43 @@ div {
 	line-height: 2;
 }
 
-/* Detailed requirements 10 and 12: Share the right alignment and left margin. */
-.red,
-.yellow {
+/* Detailed requirement 10: Keep only the thicker left border and thinner bottom border. */
+.red {
+	background-color: #ff0000;
 	text-align: right;
 	margin-left: 50px;
+	border-top: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-left-width: 5px;
 }
 
-/* Detailed requirement 10: Set red borders in top-right-bottom-left order: 3px 3px 2px 5px. */
-.red {
-	background-color: #FF0000;
-	border-width: 3px 3px 2px 5px;
-}
-
-/* Detailed requirements 11 and 13: Share the left alignment and right margin. */
-.blue,
-.green {
+/* Detailed requirement 11: Keep only the thinner top border and thicker right border. */
+.blue {
+	background-color: #0000ff;
 	text-align: left;
 	margin-right: 50px;
-}
-
-/* Detailed requirement 11: Set blue borders in top-right-bottom-left order: 2px 5px 3px 3px. */
-.blue {
-	background-color: #0000FF;
-	border-width: 2px 5px 3px 3px;
+	border-bottom: none;
+	border-left: none;
+	border-right-width: 5px;
+	border-top-width: 2px;
 }
 
 /* Detailed requirement 11e: Improve contrast for both headings and paragraphs in the blue section. */
 .blue h2,
 .blue p {
-	color: #C4C4C4;
+	color: #c4c4c4;
 }
 
-/* Detailed requirement 12: Set yellow borders in top-right-bottom-left order: 3px 3px 2px 5px. */
+/* Detailed requirement 12: Keep only the thicker left border and thinner bottom border. */
 .yellow {
-	background-color: #FFFF00;
-	border-width: 3px 3px 2px 5px;
+	background-color: #ffff00;
+	text-align: right;
+	margin-left: 50px;
+	border-top: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-left-width: 5px;
 }
 
 /* Detailed requirement 12e: Improve paragraph contrast in the yellow section. */
@@ -90,22 +92,27 @@ div {
 	color: #707070;
 }
 
-/* Detailed requirement 13: Set green borders in top-right-bottom-left order: 2px 5px 3px 3px. */
+/* Detailed requirement 13: Keep only the thinner top border and thicker right border. */
 .green {
 	background-color: #008500;
-	border-width: 2px 5px 3px 3px;
+	text-align: left;
+	margin-right: 50px;
+	border-bottom: none;
+	border-left: none;
+	border-right-width: 5px;
+	border-top-width: 2px;
 }
 
 /* Detailed requirement 14: Add the four-stop gradient and white border to the footer. */
 footer {
 	background: linear-gradient(
-		to right,
+		90deg,
 		#000000 0%,
-		#0000FF 25%,
-		#0066FF 70%,
+		#0000ff 25%,
+		#0066ff 70%,
 		#000000 100%
 	);
-	border: 5px solid #FFFFFF;
+	border: 5px solid #ffffff;
 }
 
 /* Detailed requirement 15: Size and right-align footer text with no left padding. */
