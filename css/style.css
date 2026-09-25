@@ -1,6 +1,6 @@
 /* Detailed requirement 3: Set the default fonts, page colors, and body margins. */
 body {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Arial, Verdana;
 	background-color: #000000;
 	color: #FFFFFF;
 	margin: 20px 20px 0 20px;
@@ -47,32 +47,32 @@ div {
 	line-height: 2;
 }
 
-/* Detailed requirements 10 and 12: Share the right alignment, left margin, and border widths. */
+/* Detailed requirements 10 and 12: Share the right alignment and left margin. */
 .red,
 .yellow {
 	text-align: right;
 	margin-left: 50px;
-	border-bottom-width: 2px;
-	border-left-width: 5px;
 }
 
-/* Detailed requirement 10: Set the red section background. */
+/* Detailed requirement 10: Set the red background and explicitly define its two custom border sides. */
 .red {
 	background-color: #FF0000;
+	border-bottom: 2px solid #FFFFFF;
+	border-left: 5px solid #FFFFFF;
 }
 
-/* Detailed requirements 11 and 13: Share the left alignment, right margin, and border widths. */
+/* Detailed requirements 11 and 13: Share the left alignment and right margin. */
 .blue,
 .green {
 	text-align: left;
 	margin-right: 50px;
-	border-top-width: 2px;
-	border-right-width: 5px;
 }
 
-/* Detailed requirement 11: Set the blue section background. */
+/* Detailed requirement 11: Set the blue background and explicitly define its two custom border sides. */
 .blue {
 	background-color: #0000FF;
+	border-top: 2px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
 }
 
 /* Detailed requirement 11e: Improve contrast for both headings and paragraphs in the blue section. */
@@ -81,9 +81,11 @@ div {
 	color: #C4C4C4;
 }
 
-/* Detailed requirement 12: Set the yellow section background. */
+/* Detailed requirement 12: Set the yellow background and explicitly define its two custom border sides. */
 .yellow {
 	background-color: #FFFF00;
+	border-bottom: 2px solid #FFFFFF;
+	border-left: 5px solid #FFFFFF;
 }
 
 /* Detailed requirement 12e: Improve paragraph contrast in the yellow section. */
@@ -91,9 +93,11 @@ div {
 	color: #707070;
 }
 
-/* Detailed requirement 13: Use an approved green background color. */
+/* Detailed requirement 13: Use an approved green and explicitly define its two custom border sides. */
 .green {
 	background-color: #008500;
+	border-top: 2px solid #FFFFFF;
+	border-right: 5px solid #FFFFFF;
 }
 
 /* Detailed requirement 14: Add the four-stop gradient and white border to the footer. */
