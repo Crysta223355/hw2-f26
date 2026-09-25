@@ -54,11 +54,10 @@ div {
 	margin-left: 50px;
 }
 
-/* Detailed requirement 10: Set the red background and explicitly define its two custom border sides. */
+/* Detailed requirement 10: Set red borders in top-right-bottom-left order: 3px 3px 2px 5px. */
 .red {
 	background-color: #FF0000;
-	border-bottom: 2px solid #FFFFFF;
-	border-left: 5px solid #FFFFFF;
+	border-width: 3px 3px 2px 5px;
 }
 
 /* Detailed requirements 11 and 13: Share the left alignment and right margin. */
@@ -68,11 +67,10 @@ div {
 	margin-right: 50px;
 }
 
-/* Detailed requirement 11: Set the blue background and explicitly define its two custom border sides. */
+/* Detailed requirement 11: Set blue borders in top-right-bottom-left order: 2px 5px 3px 3px. */
 .blue {
 	background-color: #0000FF;
-	border-top: 2px solid #FFFFFF;
-	border-right: 5px solid #FFFFFF;
+	border-width: 2px 5px 3px 3px;
 }
 
 /* Detailed requirement 11e: Improve contrast for both headings and paragraphs in the blue section. */
@@ -81,11 +79,10 @@ div {
 	color: #C4C4C4;
 }
 
-/* Detailed requirement 12: Set the yellow background and explicitly define its two custom border sides. */
+/* Detailed requirement 12: Set yellow borders in top-right-bottom-left order: 3px 3px 2px 5px. */
 .yellow {
 	background-color: #FFFF00;
-	border-bottom: 2px solid #FFFFFF;
-	border-left: 5px solid #FFFFFF;
+	border-width: 3px 3px 2px 5px;
 }
 
 /* Detailed requirement 12e: Improve paragraph contrast in the yellow section. */
@@ -93,11 +90,10 @@ div {
 	color: #707070;
 }
 
-/* Detailed requirement 13: Use an approved green and explicitly define its two custom border sides. */
+/* Detailed requirement 13: Set green borders in top-right-bottom-left order: 2px 5px 3px 3px. */
 .green {
 	background-color: #008500;
-	border-top: 2px solid #FFFFFF;
-	border-right: 5px solid #FFFFFF;
+	border-width: 2px 5px 3px 3px;
 }
 
 /* Detailed requirement 14: Add the four-stop gradient and white border to the footer. */
